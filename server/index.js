@@ -45,9 +45,18 @@ io.on("connection", (socket)=>{
 
     socket.on("message", (data)=>{
         console.log("Message Received: ", data.message);
-      
+        
         //send the message to the reciever
         socket.to(data.reciever).emit("forward-message", data.message);
+
+    });
+
+    socket.on("join-room", (roomName)=>{
+        console.log(`User joined room: ${roomName}`);
+        //socket.join is used to join a room
+        socket.join(roomName);
+
+        socket.emit("joined-room", roomName);
     })
 
 })

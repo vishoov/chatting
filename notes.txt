@@ -1,0 +1,30 @@
+Node -> project setup 24x7
+express -> api design -> project structure 
+mongodb -> database setup, connect
+webRtc -> real time communication
+security -> jwt, bcrypt, cors
+scalability-> mvc, try catch
+data modelling -> mongoose 
+
+
+task automate 
+
+reminder -> monday, delhi, meeting 
+
+day, location, purpose 
+
+node-chron scheduling 
+
+
+time specific fix -> function -> implement task 
+
+
+email workflow 
+
+email package express mailing 
+
+API call 
+
+mailiing 
+
+
